@@ -1,0 +1,132 @@
+
+
+body{
+    /* font-family: 'Comfortaa', cursive;
+    margin: 0px; */
+
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    margin: 0px;
+}
+
+.name-highlight{
+
+    color: palevioletred;
+    font-weight: bold;
+}
+
+.link-style{
+    background-image: linear-gradient(90deg,deeppink,mediumvioletred);
+    text-decoration: none;
+    padding: 7px 20px;
+    border: 10px;
+    color: white;
+    border-radius: 10px;
+}
+.link-style:hover{
+    background:green;
+}
+.half-width{
+    width: 35%;
+    float: left;
+    margin-left: 5%;
+    
+}
+.half-width img{
+    width: 100%;
+    padding-left: 5%;
+}
+
+.headerbg{
+    background-image: url("header-bg.png");
+    padding-top: 220px ;
+    
+}
+
+section{
+    height: 950px;
+}
+
+.bio{
+    margin-top: -100px;
+    background-image: url("biography-bg.png");
+}
+
+.latest-work img{
+    width: 100%;
+    padding: 1%;
+    
+}
+
+.works{
+    width: 30%;
+    float: left;
+    padding: 1.5%;
+}
+
+.client{
+    text-align: center;
+    padding-top: 50px;
+}
+.client:hover{
+    color: goldenrod;
+}
+#foundercolor{
+    color: dimgray;
+}
+
+
+
+#intro{
+    font-size: 25px;
+    margin-top: 300px;
+}
+
+#bioIntro{
+    font-size: 25px;
+    margin-top: 300px;
+}
+#button{
+    margin-left: 700px;
+    background: #bc4e9c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f80759, #bc4e9c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f80759, #bc4e9c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color:aliceblue;
+    border:none;
+    border-radius: 8px;
+    width: 500px;
+    height: 135px;
+    outline: none;
+
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  #gmail{
+      font-size: 25px;
+  }
